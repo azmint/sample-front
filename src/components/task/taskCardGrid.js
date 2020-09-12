@@ -4,11 +4,11 @@ import Grid from '@material-ui/core/Grid';
 import TaskCard from "./taskCard";
 import Container from "@material-ui/core/Container";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles({
     root: {
         padding: 6,
     },
-}));
+});
 
 export default function TaskCardGrid() {
     const classes = useStyles();
