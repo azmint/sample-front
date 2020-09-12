@@ -6,13 +6,13 @@ import Container from "@material-ui/core/Container";
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        flexGrow: 1,
+        padding: 6,
     },
 }));
 
 export default function TaskCardGrid() {
-    const [spacing] = React.useState(2);
     const classes = useStyles();
+    // APIから取得するように変更する
     const tasks = [
         {
             "title": "title1",
@@ -65,8 +65,8 @@ export default function TaskCardGrid() {
     ];
 
     return (
-        <Container>
-            <Grid container className={classes.root} justify="center" spacing={spacing}>
+        <Container className={classes.root}>
+            <Grid container className={classes.root}>
                 {tasks.map((task) => (
                     <Grid item xs={12}>
                         <TaskCard title={task.title} details={task.details} />

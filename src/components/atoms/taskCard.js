@@ -1,13 +1,13 @@
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
+import Paper from "@material-ui/core/Paper";
 
 const useStyles = makeStyles({
     root: {
         flexGrow: 1,
-        height: 140,
+        height: 80,
+        padding: 10,
     },
     title: {
         fontSize: 14,
@@ -21,15 +21,13 @@ export default function TaskCard(props) {
     const classes = useStyles();
 
     return (
-        <Card className={classes.root} variant="outlined">
-            <CardContent>
-                <Typography className={classes.title} color="textSecondary" gutterBottom>
-                    {props.title}
-                </Typography>
-                <Typography className={classes.details}>
-                    {props.details}
-                </Typography>
-            </CardContent>
-        </Card>
+        <Paper className={classes.root} variant="outlined" square>
+            <Typography className={classes.title} color="textSecondary" gutterBottom>
+                {props.title}
+            </Typography>
+            <Typography className={classes.details}>
+                {props.details}
+            </Typography>
+        </Paper>
     );
 }
