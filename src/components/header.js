@@ -8,7 +8,6 @@ import {makeStyles} from "@material-ui/core/styles";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 import PropTypes from "prop-types";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import Container from "@material-ui/core/Container";
 
 function ElevationScroll(props) {
     const { children, window } = props;
