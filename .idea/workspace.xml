@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="80035b2f-19fb-47c6-acb0-d8963be253e7" name="Default Changelist" comment="不要なタグを削除">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/task/taskCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/task/taskCardGrid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/title.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/material_ui/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/topPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1h5pjQ62bLc2IM3DU7sCMIA2glP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/atoms" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/pages/top" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/App.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.App.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80035b2f-19fb-47c6-acb0-d8963be253e7" name="Default Changelist" comment="" />
+      <created>1599310941661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599310941661</updated>
+      <workItem from="1599310945510" duration="123000" />
+      <workItem from="1599311078701" duration="35322000" />
+      <workItem from="1600129050936" duration="130000" />
+      <workItem from="1603465404428" duration="4216000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add Title">
+      <created>1599313316656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599313316656</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ヘッダを設定">
+      <created>1599399463328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599399463328</updated>
+    </task>
+    <task id="LOCAL-00003" summary="package-lock.jsonを追加">
+      <created>1599484941146</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599484941146</updated>
+    </task>
+    <task id="LOCAL-00004" summary="FunctionComponent化">
+      <created>1599484958417</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599484958417</updated>
+    </task>
+    <task id="LOCAL-00005" summary="FunctionComponent化">
+      <created>1599485172736</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599485172736</updated>
+    </task>
+    <task id="LOCAL-00006" summary="サンプルのトップページを作成">
+      <created>1599904465010</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599904465010</updated>
+    </task>
+    <task id="LOCAL-00007" summary="レイアウトを修正">
+      <created>1599912303712</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599912303712</updated>
+    </task>
+    <task id="LOCAL-00008" summary="コンポーネント構造を修正">
+      <created>1599915016825</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599915016825</updated>
+    </task>
+    <task id="LOCAL-00009" summary="リファクタリング">
+      <created>1599917818065</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599917818065</updated>
+    </task>
+    <task id="LOCAL-00010" summary="リファクタリング">
+      <created>1599917846763</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599917846763</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ライブラリにreact-routerを追加">
+      <created>1599987023765</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599987023765</updated>
+    </task>
+    <task id="LOCAL-00012" summary="複数ページを実装">
+      <created>1599992930582</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599992930582</updated>
+    </task>
+    <task id="LOCAL-00013" summary="不要なimportを削除">
+      <created>1599992972385</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599992972385</updated>
+    </task>
+    <task id="LOCAL-00014" summary="不要なタグを削除">
+      <created>1599993073346</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599993073346</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Title" />
+    <MESSAGE value="ヘッダを設定" />
+    <MESSAGE value="package-lock.jsonを追加" />
+    <MESSAGE value="FunctionComponent化" />
+    <MESSAGE value="サンプルのトップページを作成" />
+    <MESSAGE value="レイアウトを修正" />
+    <MESSAGE value="コンポーネント構造を修正" />
+    <MESSAGE value="リファクタリング" />
+    <MESSAGE value="ライブラリにreact-routerを追加" />
+    <MESSAGE value="複数ページを実装" />
+    <MESSAGE value="不要なimportを削除" />
+    <MESSAGE value="不要なタグを削除" />
+    <option name="LAST_COMMIT_MESSAGE" value="不要なタグを削除" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="208" y="31" key="#Project_Structure" timestamp="1599988623416">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1599988623416" />
+    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog" timestamp="1599988513833">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1599987000814" />
+    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1599988513833" />
+    <state x="630" y="227" key="FileChooserDialogImpl" timestamp="1599396754821">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="630" y="227" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1599396754821" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1599395760377">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599395760377" />
+    <state width="2518" height="424" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1599311068859" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1599395760374">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599395760374" />
+    <state width="2518" height="424" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1599311068857" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1599395760373">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599395760373" />
+    <state width="2518" height="424" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1599311068857" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1599395760376">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599395760376" />
+    <state width="2518" height="424" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1599311068858" />
+    <state x="474" y="159" key="RollbackChangesDialog" timestamp="1599985967344">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="474" y="159" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1599985967344" />
+    <state x="495" y="279" key="Vcs.Push.Dialog.v2" timestamp="1599915018748">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="495" y="279" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1599915018748" />
+    <state x="880" y="447" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1599313380266" />
+    <state x="555" y="220" width="574" height="490" key="find.popup" timestamp="1599917795961">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="555" y="220" width="574" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1599917795961" />
+    <state x="987" y="352" width="586" height="735" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1599312112804" />
+    <state x="532" y="207" width="670" height="423" key="search.everywhere.popup" timestamp="1599992948758">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="532" y="207" width="670" height="423" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1599992948758" />
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1599313271579" />
+  </component>
+</project>
