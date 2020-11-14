@@ -48,6 +48,9 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/header" />
       <recent name="$PROJECT_DIR$/src/components/atoms" />
@@ -79,7 +82,7 @@
       <workItem from="1599311078701" duration="35322000" />
       <workItem from="1600129050936" duration="130000" />
       <workItem from="1603465404428" duration="13420000" />
-      <workItem from="1605315877796" duration="2643000" />
+      <workItem from="1605315877796" duration="3072000" />
     </task>
     <task id="LOCAL-00001" summary="Add Title">
       <created>1599313316656</created>
@@ -228,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605318417119</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="axiosを追加">
+      <created>1605326545585</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1605326545585</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +289,8 @@
     <MESSAGE value="react-router-domを追加" />
     <MESSAGE value="TopPageを切り分けてルーティング設定" />
     <MESSAGE value="ルーティングサンプル用のページを追加" />
-    <option name="LAST_COMMIT_MESSAGE" value="ルーティングサンプル用のページを追加" />
+    <MESSAGE value="axiosを追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="axiosを追加" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="31" key="#Project_Structure" timestamp="1599988623416">
