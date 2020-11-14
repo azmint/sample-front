@@ -4,11 +4,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import TopPage from "./pages/top";
+import SamplePage from "./pages/sample";
 
 ReactDOM.render(
     <Router>
         <div>
             <Route exact path="/" component={TopPage}/>
+            <Route exact path="/sample" component={SamplePage}/>
         </div>
     </Router>,
     document.getElementById('root')
