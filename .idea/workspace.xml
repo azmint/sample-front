@@ -11,22 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80035b2f-19fb-47c6-acb0-d8963be253e7" name="Default Changelist" comment="不要なタグを削除">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/elevationScroll.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/title.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure.material_ui/theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/task/taskCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/task/taskCardGrid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/title.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/material_ui/theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/topPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +59,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/header" />
       <recent name="$PROJECT_DIR$/src/components/atoms" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/pages/top" />
@@ -95,7 +88,8 @@
       <workItem from="1599310945510" duration="123000" />
       <workItem from="1599311078701" duration="35322000" />
       <workItem from="1600129050936" duration="130000" />
-      <workItem from="1603465404428" duration="4216000" />
+      <workItem from="1603465404428" duration="13420000" />
+      <workItem from="1605315877796" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="Add Title">
       <created>1599313316656</created>
@@ -195,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599993073346</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="TypeScriptに変更">
+      <created>1604406973578</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604406973578</updated>
+    </task>
+    <task id="LOCAL-00016" summary="TypeScriptに変更">
+      <created>1604407031627</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604407031627</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +215,21 @@
         <entry key="MAIN">
           <value>
             <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -226,18 +249,23 @@
     <MESSAGE value="複数ページを実装" />
     <MESSAGE value="不要なimportを削除" />
     <MESSAGE value="不要なタグを削除" />
-    <option name="LAST_COMMIT_MESSAGE" value="不要なタグを削除" />
+    <MESSAGE value="TypeScriptに変更" />
+    <option name="LAST_COMMIT_MESSAGE" value="TypeScriptに変更" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="31" key="#Project_Structure" timestamp="1599988623416">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1599988623416" />
-    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog" timestamp="1599988513833">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604406760226">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1604406760226" />
+    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog" timestamp="1604717511124">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1599987000814" />
-    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1599988513833" />
+    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1604407985703" />
+    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1604717511124" />
     <state x="630" y="227" key="FileChooserDialogImpl" timestamp="1599396754821">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -262,24 +290,40 @@
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599395760376" />
     <state width="2518" height="424" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1599311068858" />
+    <state x="358" y="218" key="MultipleFileMergeDialog" timestamp="1604407069111">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="358" y="218" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1604407069111" />
     <state x="474" y="159" key="RollbackChangesDialog" timestamp="1599985967344">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="474" y="159" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1599985967344" />
-    <state x="495" y="279" key="Vcs.Push.Dialog.v2" timestamp="1599915018748">
+    <state x="571" y="370" key="VCS.ChangelistChooser" timestamp="1604407526241">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="495" y="279" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1599915018748" />
+    <state x="571" y="370" key="VCS.ChangelistChooser/0.0.1440.900@0.0.1440.900" timestamp="1604407526241" />
+    <state x="495" y="279" key="Vcs.Push.Dialog.v2" timestamp="1604407053299">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="495" y="279" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604407053299" />
     <state x="880" y="447" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1599313380266" />
+    <state x="100" y="79" width="1240" height="719" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605316473912">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="79" width="1240" height="719" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1605316473912" />
+    <state x="372" y="0" width="699" height="900" key="dock-window-1" timestamp="1605312987457">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="372" y="0" width="699" height="900" key="dock-window-1/0.0.1440.900@0.0.1440.900" timestamp="1605312987457" />
     <state x="555" y="220" width="574" height="490" key="find.popup" timestamp="1599917795961">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="555" y="220" width="574" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1599917795961" />
     <state x="987" y="352" width="586" height="735" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1599312112804" />
-    <state x="532" y="207" width="670" height="423" key="search.everywhere.popup" timestamp="1599992948758">
+    <state x="532" y="207" width="670" height="423" key="search.everywhere.popup" timestamp="1605316321960">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="532" y="207" width="670" height="423" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1599992948758" />
+    <state x="532" y="207" width="670" height="423" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605316321960" />
     <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1599313271579" />
   </component>
 </project>
