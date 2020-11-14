@@ -11,7 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80035b2f-19fb-47c6-acb0-d8963be253e7" name="Default Changelist" comment="不要なタグを削除">
+      <change afterPath="$PROJECT_DIR$/src/pages/top.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,7 @@
       <workItem from="1599311078701" duration="35322000" />
       <workItem from="1600129050936" duration="130000" />
       <workItem from="1603465404428" duration="13420000" />
-      <workItem from="1605315877796" duration="1583000" />
+      <workItem from="1605315877796" duration="2334000" />
     </task>
     <task id="LOCAL-00001" summary="Add Title">
       <created>1599313316656</created>
@@ -202,7 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605316730413</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="react-router-domを追加">
+      <created>1605317769885</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1605317769885</updated>
+    </task>
+    <task id="LOCAL-00019" summary="react-router-domを追加">
+      <created>1605317832157</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1605317832157</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +266,8 @@
     <MESSAGE value="不要なタグを削除" />
     <MESSAGE value="TypeScriptに変更" />
     <MESSAGE value="MaterialUIを使ってヘッダを作成" />
-    <option name="LAST_COMMIT_MESSAGE" value="MaterialUIを使ってヘッダを作成" />
+    <MESSAGE value="react-router-domを追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="react-router-domを追加" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="31" key="#Project_Structure" timestamp="1599988623416">
@@ -265,11 +282,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1604406760226" />
-    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog" timestamp="1605316773980">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog" timestamp="1605317856401">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1605316773980" />
-    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1604717511124" />
+    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1605317734654" />
+    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1605317856401" />
     <state x="630" y="227" key="FileChooserDialogImpl" timestamp="1599396754821">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

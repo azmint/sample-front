@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Header from './components/header/header';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import TopPage from "./pages/top";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-    <Header title="Sample Header Text." />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <Router>
+        <div>
+            <Route exact path="/" component={TopPage}/>
+        </div>
+    </Router>,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
