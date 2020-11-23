@@ -10,7 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80035b2f-19fb-47c6-acb0-d8963be253e7" name="Default Changelist" comment="不要なタグを削除" />
+    <list default="true" id="80035b2f-19fb-47c6-acb0-d8963be253e7" name="Default Changelist" comment="不要なタグを削除">
+      <change afterPath="$PROJECT_DIR$/src/components/tasks/tasks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/api/task/model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/api/task/model.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,10 +57,11 @@
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/infrastructure/api/task" />
+      <recent name="$PROJECT_DIR$/src/infrastructure" />
       <recent name="$PROJECT_DIR$/src/components/header" />
       <recent name="$PROJECT_DIR$/src/components/atoms" />
       <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/components/pages/top" />
     </key>
   </component>
   <component name="RunManager">
@@ -82,7 +88,7 @@
       <workItem from="1599311078701" duration="35322000" />
       <workItem from="1600129050936" duration="130000" />
       <workItem from="1603465404428" duration="13420000" />
-      <workItem from="1605315877796" duration="3072000" />
+      <workItem from="1605315877796" duration="10888000" />
     </task>
     <task id="LOCAL-00001" summary="Add Title">
       <created>1599313316656</created>
@@ -238,7 +244,28 @@
       <option name="project" value="LOCAL" />
       <updated>1605326545585</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="フォルダ構成を修正">
+      <created>1605326776271</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1605326776271</updated>
+    </task>
+    <task id="LOCAL-00024" summary="camelcase-keysを追加">
+      <created>1605326869966</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1605326869966</updated>
+    </task>
+    <task id="LOCAL-00025" summary="TaskのAPIクライアントを実装">
+      <created>1605327291037</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1605327291037</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +317,10 @@
     <MESSAGE value="TopPageを切り分けてルーティング設定" />
     <MESSAGE value="ルーティングサンプル用のページを追加" />
     <MESSAGE value="axiosを追加" />
-    <option name="LAST_COMMIT_MESSAGE" value="axiosを追加" />
+    <MESSAGE value="フォルダ構成を修正" />
+    <MESSAGE value="camelcase-keysを追加" />
+    <MESSAGE value="TaskのAPIクライアントを実装" />
+    <option name="LAST_COMMIT_MESSAGE" value="TaskのAPIクライアントを実装" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="31" key="#Project_Structure" timestamp="1599988623416">
@@ -351,10 +381,10 @@
     </state>
     <state x="495" y="279" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605316732669" />
     <state x="880" y="447" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1599313380266" />
-    <state x="100" y="79" width="1240" height="719" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605316473912">
+    <state x="100" y="57" width="1240" height="738" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605327541374">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="100" y="79" width="1240" height="719" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1605316473912" />
+    <state x="100" y="57" width="1240" height="738" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1605327541374" />
     <state x="372" y="0" width="699" height="900" key="dock-window-1" timestamp="1605312987457">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -364,10 +394,14 @@
     </state>
     <state x="555" y="220" width="574" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1599917795961" />
     <state x="987" y="352" width="586" height="735" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1599312112804" />
-    <state x="532" y="207" width="670" height="423" key="search.everywhere.popup" timestamp="1605316321960">
+    <state x="369" y="184" width="700" height="530" key="recent.locations.popup" timestamp="1605327310414">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="532" y="207" width="670" height="423" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605316321960" />
+    <state x="369" y="184" width="700" height="530" key="recent.locations.popup/0.0.1440.900@0.0.1440.900" timestamp="1605327310414" />
+    <state x="532" y="207" width="670" height="423" key="search.everywhere.popup" timestamp="1605327213679">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="532" y="207" width="670" height="423" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605327213679" />
     <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1599313271579" />
   </component>
 </project>

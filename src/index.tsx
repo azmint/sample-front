@@ -5,12 +5,14 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import TopPage from "./pages/top";
 import SamplePage from "./pages/sample";
+import Tasks from "./components/tasks/tasks";
 
 ReactDOM.render(
     <Router>
         <div>
             <Route exact path="/" component={TopPage}/>
             <Route exact path="/sample" component={SamplePage}/>
+            <Route exact path="/tasks" component={Tasks}/>
         </div>
     </Router>,
     document.getElementById('root')

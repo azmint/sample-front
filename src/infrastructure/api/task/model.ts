@@ -1,7 +1,9 @@
 export interface Task {
-    id: number;
-    title: string;
-    details: string;
+    id: {value: string};
+    title: {value: string};
+    details: {value: string};
+    taskTypeId: {value: string};
+    parentTaskId: {value: string};
 }
 
 export interface ComposingTask {
