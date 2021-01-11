@@ -12,10 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="80035b2f-19fb-47c6-acb0-d8963be253e7" name="Default Changelist" comment="不要なタグを削除">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tasks/tasks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tasks/tasks.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/api/axiosClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/api/axiosClient.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605327291037</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Sentryを導入">
+      <created>1610345019814</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1610345019814</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +325,8 @@
     <MESSAGE value="フォルダ構成を修正" />
     <MESSAGE value="camelcase-keysを追加" />
     <MESSAGE value="TaskのAPIクライアントを実装" />
-    <option name="LAST_COMMIT_MESSAGE" value="TaskのAPIクライアントを実装" />
+    <MESSAGE value="Sentryを導入" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sentryを導入" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605316773588">
@@ -332,11 +337,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1604406760226" />
-    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog" timestamp="1610341624783">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog" timestamp="1610345592260">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1610341624783" />
-    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1605317856401" />
+    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1610345400172" />
+    <state x="100" y="79" width="1240" height="719" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1610345592260" />
     <state x="508" y="212" key="FileChooserDialogImpl" timestamp="1610343435258">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -353,14 +358,15 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="571" y="370" key="VCS.ChangelistChooser/0.0.1440.900@0.0.1440.900" timestamp="1604407526241" />
-    <state x="495" y="279" key="Vcs.Push.Dialog.v2" timestamp="1605316732669">
+    <state x="495" y="279" key="Vcs.Push.Dialog.v2" timestamp="1610345023785">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="495" y="279" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605316732669" />
-    <state x="100" y="35" width="1240" height="758" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610344811706">
+    <state x="495" y="279" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1610345023785" />
+    <state x="100" y="12" width="1240" height="778" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610345592261">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="100" y="35" width="1240" height="758" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1610344811706" />
+    <state x="100" y="12" width="1240" height="778" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1610345193880" />
+    <state x="100" y="12" width="1240" height="778" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1610345592261" />
     <state x="372" y="0" width="699" height="900" key="dock-window-1" timestamp="1605312987457">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -369,13 +375,17 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="418" y="205" width="604" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1610343437051" />
+    <state x="510" y="336" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1610344978311">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="510" y="336" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1610344978311" />
     <state x="369" y="184" width="700" height="530" key="recent.locations.popup" timestamp="1605327310414">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="369" y="184" width="700" height="530" key="recent.locations.popup/0.0.1440.900@0.0.1440.900" timestamp="1605327310414" />
-    <state x="532" y="207" width="670" height="423" key="search.everywhere.popup" timestamp="1610343469507">
+    <state x="532" y="207" width="670" height="423" key="search.everywhere.popup" timestamp="1610344982637">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="532" y="207" width="670" height="423" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1610343469507" />
+    <state x="532" y="207" width="670" height="423" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1610344982637" />
   </component>
 </project>

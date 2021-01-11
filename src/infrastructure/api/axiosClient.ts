@@ -1,10 +1,13 @@
 import axios, {AxiosInstance, AxiosResponse} from 'axios';
 import camelCaseKeys from 'camelcase-keys';
 
+const env = process.env
+const url = env.API_URL ? env.API_URL : 'http://localhost:8080/';
+
 let axiosClient: AxiosInstance;
 
 export default axiosClient = axios.create({
-    baseURL: `http://localhost:8080/`,
+    baseURL: url,
     headers: {
         'Content-Type': 'application/json',
     }
