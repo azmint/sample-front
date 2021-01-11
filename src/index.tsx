@@ -6,6 +6,20 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import TopPage from "./pages/top";
 import SamplePage from "./pages/sample";
 import Tasks from "./components/tasks/tasks";
+import * as Sentry from "@sentry/react";
+import {Integrations} from "@sentry/tracing";
+
+Sentry.init({
+    dsn: "https://024890a3f373499b8945c647a26da165@o502953.ingest.sentry.io/5587125",
+    autoSessionTracking: true,
+    integrations: [
+        new Integrations.BrowserTracing(),
+    ],
+
+    // We recommend adjusting this value in production, or using tracesSampler
+    // for finer control
+    tracesSampleRate: 1.0,
+});
 
 ReactDOM.render(
     <Router>
